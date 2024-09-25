@@ -31,3 +31,17 @@ GitHub: Controle de versão e repositório do código.
 VSCode: Ambiente de desenvolvimento integrado (IDE).
 draw.io: Utilizado para criar fluxogramas e diagramas do sistema.
 ChatGPT: Auxílio na criação de soluções e elaboração do código.
+
+# Pré-requisitos
+Antes de iniciar, você precisará ter os seguintes itens instalados:
+
+Python 3.x
+MySQL (Servidor de banco de dados)
+MySQL Connector para Python (biblioteca para conectar o Python ao MySQL)
+Biblioteca reportlab para geração de PDFs
+Configuração do MySQL
+Inicie o servidor MySQL e crie um banco de dados:
+sql
+Copiar código
+CREATE DATABASE cadastro_clientes;
+Atualize o arquivo de configuração do projeto com suas credenciais do MySQL (ex.: usuário, senha e host).
